@@ -6,7 +6,7 @@ spec:
   replicas: 2 # Set the number of desired replicas
   selector:
     matchLabels:
-      app: bluegreen
+      app: green
   template:
     metadata:
       labels:
