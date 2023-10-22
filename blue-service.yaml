@@ -4,7 +4,7 @@ metadata:
   name: bluegreenservice
 spec:
   selector:
-    app: green
+    app: bluegreen
   ports:
   - protocol: TCP
     port: 8005 # Expose port 8005 on the Service
