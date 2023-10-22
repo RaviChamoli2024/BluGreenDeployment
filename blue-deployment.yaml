@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: bluegreendeployment
 spec:
-  replicas: 1 # Set the number of desired replicas
+  replicas: 2 # Set the number of desired replicas
   selector:
     matchLabels:
       app: bluegreen
