@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bluegreendep-v1
-        image: sreekanthpv12/bluegreendep-v1:latest
+        image: AssignDevOps26/bluegreendep-v1:latest
         ports:
         - containerPort: 80
 
